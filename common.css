@@ -1,0 +1,91 @@
+/*영문폰트*/
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+
+/*한글폰트*/
+@font-face {
+  font-family: "MaruBuri-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/*폰트 적용*/
+html > body {
+  font-family: "Libre Baskerville", "MaruBuri-Regular", serif;
+  color: white;
+  background-color: #010101;
+}
+/*라이브러리 S*/
+
+/* 1440 그리드 */
+.con-min-width {
+  min-width: 1440px;
+}
+.con {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  padding: 0 20px;
+  position: relative;
+}
+/*54px*/
+.text-54px {
+  font-size:54px;
+}
+
+/*31px*/
+.text-31px {
+  font-size:31px;
+}
+.pb-8-5 {
+  padding-bottom:8.5px;
+}
+
+/*26px*/
+.text-26px {
+  font-size:26px
+}
+.pb-9-5 {
+  padding-bottom:9.5px;
+}
+.white-title-text {
+  color: #191919;
+}
+
+/*18px*/
+.text-18px {
+  font-size:18px
+}
+.pb-4-5 {
+  padding-bottom:4.5px;
+}
+.body-text {
+  color: #969696;
+}
+.white-body-text {
+  color: #757575;
+}
+
+/*16px*/
+.text-16px {
+  font-size:16px
+}
+
+/*14px*/
+.text-14px {
+  font-size:14px
+}
+.sub-text {
+  color: #404040;
+}
+
+/*padding*/
+.pl-18 {
+  padding-left:18px;
+}
+.pl-38 {
+  padding-left:38px;
+}
+
+/*라이브러리 E*/
